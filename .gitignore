@@ -1,2 +1,5 @@
 RemoteSystemsTempFiles/
 .metadata/
+.recommenders/
+node_modules/
+Servers/

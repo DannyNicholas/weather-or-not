@@ -1,0 +1,25 @@
+{
+  "name": "weather-or-not",
+  "version": "1.0.0",
+  "description": "Weather Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server-proxy/server.js app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannyNicholas/weather-or-not.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DannyNicholas/weather-or-not/issues"
+  },
+  "homepage": "https://github.com/DannyNicholas/weather-or-not#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0"
+  }
+}
